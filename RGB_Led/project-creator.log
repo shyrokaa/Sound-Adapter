@@ -1,0 +1,166 @@
+Checking if remote manifest is accessible...
+No internet connection found or improper proxy settings and offline content is not available. Use "Settings > Proxy Settings..." to specify the proxy server or check the user guide to see how to get offline content.
+Can't find a valid super-manifest.
+Failed to get the information.
+
+Press "Retry" to try again.
+Checking if remote manifest is accessible...
+Getting manifests from remote server...
+
+Processing super-manifest https://github.com/cypresssemiconductorco/mtb-super-manifest/raw/v2.X/mtb-super-manifest-fv2.xml...
+Successfully acquired the information.
+
+Summary: 
+
+BSP: CY8CKIT-062S2-43012
+Template Application(s): Hello World
+Application(s) Root Path: G:/university/3/2/SM/Project/Sound-Adapter
+
+Press "Create" to create the selected application(s).
+Collecting application data...
+
+
+Info: The following entered on the command line will create the exact same project as that created with the GUI tool:
+C:/Infineon/Tools/ModusToolbox/tools_2.4/project-creator/project-creator-cli.exe --board-id CY8CKIT-062S2-43012 --board-uri https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062S2-43012 --board-commit latest-v3.X --app-id mtb-example-psoc6-hello-world --app-uri https://github.com/cypresssemiconductorco/mtb-example-psoc6-hello-world --app-commit latest-v3.X --cypress-tools C:/Infineon/Tools/ModusToolbox/tools_2.4 --target-dir G:/university/3/2/SM/Project/Sound-Adapter --user-app-name Hello_World --output-for-machine --use-modus-shell
+
+
+==============================================================================
+= Cloning 'mtb-example-psoc6-hello-world' =
+==============================================================================
+Cloning https://github.com/cypresssemiconductorco/mtb-example-psoc6-hello-world into G:/university/3/2/SM/Project/Sound-Adapter directory...
+env git clone --progress --origin cypress https://github.com/cypresssemiconductorco/mtb-example-psoc6-hello-world Hello_World
+Cloning into 'Hello_World'...
+remote: Enumerating objects: 56, done.        
+remote: Total 56 (delta 0), reused 0 (delta 0), pack-reused 56        
+Receiving objects: 100% (56/56), 204.53 KiB | 2.73 MiB/s, done.
+Resolving deltas: 100% (21/21), done.
+
+Checking out latest-v3.X...
+env git checkout --progress latest-v3.X
+Note: switching to 'latest-v3.X'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at a1d784d Upload mtb-example-psoc6-hello-world 3.0.0.905
+
+==============================================================================
+= Creating "TARGET_CY8CKIT-062S2-43012.mtb" file(s) =
+==============================================================================
+G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/deps/TARGET_CY8CKIT-062S2-43012.mtb was added
+G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/deps/TARGET_CY8CPROTO-062-4343W.mtb was removed
+
+==============================================================================
+= Updating Makefile for "Hello_World" =
+==============================================================================
+
+==============================================================================
+= Applying the Latest Version Locking for "Hello_World" =
+==============================================================================
+G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/deps/TARGET_CY8CKIT-062S2-43012.mtb was updated
+G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/deps/retarget-io.mtb was updated
+
+==============================================================================
+= Getting Dependencies for "Hello_World" =
+==============================================================================
+C:/Infineon/Tools/ModusToolbox/tools_2.4/modus-shell/bin/make.exe getlibs CY_TOOLS_PATHS=C:/Infineon/Tools/ModusToolbox/tools_2.4
+Tools Directory: C:/Infineon/Tools/ModusToolbox/tools_2.4
+
+==============================================================================
+= Importing libraries =
+==============================================================================
+Git is git version 2.33.0, found at /usr/bin/git
+
+Resolving dependencies...
+Checking if remote manifest is accessible...
+Getting manifests from remote server...
+Processing super-manifest https://github.com/cypresssemiconductorco/mtb-super-manifest/raw/v2.X/mtb-super-manifest-fv2.xml...
+Successfully acquired the information.
+INFO - Warning: Multiple versions of "core-make" requested. Keeping version "latest-v1.X" and discarding version "release-v1.9.0".
+G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/capsense.mtb was added
+G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/core-lib.mtb was added
+G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/core-make.mtb was added
+G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/mtb-hal-cat1.mtb was added
+G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/mtb-pdl-cat1.mtb was added
+G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/psoc6cm0p.mtb was added
+G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/recipe-make-cat1a.mtb was added
+Dependencies resolved.
+
+Searching application directory (.mtb)...
+Found 9 .mtb file(s)
+    Processing file "G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/deps/TARGET_CY8CKIT-062S2-43012.mtb"
+    Processing file "G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/deps/retarget-io.mtb"
+    Processing file "G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/capsense.mtb"
+    Processing file "G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/core-lib.mtb"
+    Processing file "G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/core-make.mtb"
+    Processing file "G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/mtb-hal-cat1.mtb"
+    Processing file "G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/mtb-pdl-cat1.mtb"
+    Processing file "G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/psoc6cm0p.mtb"
+    Processing file "G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/recipe-make-cat1a.mtb"
+Libraries processed.
+Created file "G:/university/3/2/SM/Project/Sound-Adapter/Hello_World/libs/mtb.mk".
+
+
+==============================================================================
+= Import complete =
+==============================================================================
+
+Project "Hello_World" created successfully.
+==============================================================================
+= Export "Hello_World" application to Eclipse IDE for ModusToolbox™ =
+==============================================================================
+C:/Infineon/Tools/ModusToolbox/tools_2.4/modus-shell/bin/make.exe eclipse CY_IDE_PRJNAME=Hello_World CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=2.4 CY_TOOLS_PATHS=C:/Infineon/Tools/ModusToolbox/tools_2.4
+Tools Directory: C:/Infineon/Tools/ModusToolbox/tools_2.4
+CY8CKIT-062S2-43012.mk: ./libs/TARGET_CY8CKIT-062S2-43012/CY8CKIT-062S2-43012.mk
+
+Running device-configurator to update stale files...
+Log file= "C:/Users/user/AppData/Local/Temp/device-configurator-cli/device-configurator-cli-20220416.110806.623-23072.log"
+Command line= "C:/Infineon/Tools/ModusToolbox/tools_2.4/device-configurator/device-configurator-cli.exe --library ../mtb_shared/mtb-pdl-cat1/release-v2.4.0/devicesupport.xml --build ./libs/TARGET_CY8CKIT-062S2-43012/COMPONENT_BSP_DESIGN_MODUS/design.modus --check-mcu=CY8C624ABZI-S2D44 --check-coprocessors=CYW43012C0WKWBG --readonly"
+INFO: The design file was last saved with a different version of the tools than was used to perform code generation. Last saved with: Tools Package 2.4.0.5721. Current: Tools Package 2.4.0.5972 (C:/Infineon/Tools/ModusToolbox/tools_2.4)
+-> Generated device configuration file(s) in ./libs/TARGET_CY8CKIT-062S2-43012/COMPONENT_BSP_DESIGN_MODUS/GeneratedSource
+
+Prebuild operations complete
+Commencing build operations...
+
+Tools Directory: C:/Infineon/Tools/ModusToolbox/tools_2.4
+CY8CKIT-062S2-43012.mk: ./libs/TARGET_CY8CKIT-062S2-43012/CY8CKIT-062S2-43012.mk
+
+Initializing build: mtb-example-psoc6-hello-world Debug CY8CKIT-062S2-43012 GCC_ARM
+
+Auto-discovery in progress...
+-> Found 225 .c file(s)
+-> Found 46 .S file(s)
+-> Found 22 .s file(s)
+-> Found 0 .cpp file(s)
+-> Found 0 .o file(s)
+-> Found 6 .a file(s)
+-> Found 583 .h file(s)
+-> Found 0 .hpp file(s)
+-> Found 0 resource file(s)
+Applying filters...
+Auto-discovery complete
+
+Constructing build rules...
+Build rules construction complete
+
+==============================================================================
+= Generating IDE files =
+==============================================================================
+
+Generated Eclipse launch config files:  "Hello_World Attach (JLink).launch" "Hello_World Attach (KitProg3_MiniProg4).launch" "Hello_World Debug (JLink).launch" "Hello_World Debug (KitProg3_MiniProg4).launch" "Hello_World Erase (JLink).launch" "Hello_World Erase (KitProg3_MiniProg4).launch" "Hello_World Program (JLink).launch" "Hello_World Program (KitProg3_MiniProg4).launch"
+  
+The project "Hello_World" was successfully exported to Eclipse IDE for ModusToolbox™.
+
+Successfully created and exported "Hello_World" application.
